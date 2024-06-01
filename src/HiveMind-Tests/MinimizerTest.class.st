@@ -2,14 +2,17 @@
 An OptimizerTest is a test class for testing the behavior of Optimizer
 "
 Class {
-	#name : 'OptimizerTest',
+	#name : 'MinimizerTest',
 	#superclass : 'TestCase',
 	#category : 'HiveMind-Tests',
 	#package : 'HiveMind-Tests'
 }
 
 { #category : 'tests' }
-OptimizerTest >> testDummy [
+MinimizerTest >> testMinimizer [
+	"Showcase the simplest way an optimizer may be used."
 
-	self assert: true
+	| cost |
+	
+	cost := QuadraticCost new.
 ]
