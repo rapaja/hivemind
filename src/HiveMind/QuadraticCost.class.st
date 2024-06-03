@@ -8,7 +8,7 @@ Class {
 	#package : 'HiveMind'
 }
 
-{ #category : 'instance creation' }
+{ #category : 'evaluation' }
 QuadraticCost >> value: x [ 
-	^ ((x collect: [ :each | each raisedTo: 2 ]) sum) * (-1).
+	^ (x collect: [ :each | each raisedTo: 2 ]) sum * (-1).
 ]

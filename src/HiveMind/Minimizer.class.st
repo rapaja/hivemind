@@ -7,3 +7,8 @@ Class {
 	#category : 'HiveMind',
 	#package : 'HiveMind'
 }
+
+{ #category : 'minimization' }
+Minimizer >> minimize: aCost [ 
+	"self shouldBeImplemented."
+]

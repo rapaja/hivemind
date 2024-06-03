@@ -10,9 +10,11 @@ Class {
 
 { #category : 'tests' }
 MinimizerTest >> testMinimizer [
-	"Showcase the simplest way an optimizer may be used."
+	"Showcase the simplest way a minimizer may be used."
 
-	| cost |
+	| cost minimizer |
 	
 	cost := QuadraticCost new.
+	minimizer := Minimizer new.
+	minimizer minimize: cost.
 ]
