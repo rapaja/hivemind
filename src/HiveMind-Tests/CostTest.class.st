@@ -1,12 +1,12 @@
 Class {
-	#name : 'QuadraticCostTest',
+	#name : 'CostTest',
 	#superclass : 'TestCase',
 	#category : 'HiveMind-Tests',
 	#package : 'HiveMind-Tests'
 }
 
 { #category : 'tests' }
-QuadraticCostTest >> testQuadraticCost [
+CostTest >> testQuadraticCost [
 	"Test quadratic cost"
 	
 	| cost |
